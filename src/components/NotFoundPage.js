@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
 import '../styles/App.css';
 
-class Volunteer extends Component {
+class NotFoundPage extends Component {
     render() {
         return (
             <div className="component">
-                <p>Volunteer</p>
-                <Footer />
+                <p>Page not found</p>
             </div>
         )
     }
 }
 
-export default Volunteer;
+export default NotFoundPage;

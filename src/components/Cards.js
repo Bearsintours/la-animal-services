@@ -6,7 +6,7 @@ class Cards extends Component {
     render() {
         return (
             <div className="section info">
-                <h1 className="section__title">I need help</h1>
+                <h1 className="section__title">Get help</h1>
                 <div className="flex-center">
                     <a href="#">
                         <div className="card">

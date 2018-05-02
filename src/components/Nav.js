@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/App.css';
 
 class Nav extends Component {
@@ -23,28 +24,28 @@ class Nav extends Component {
                     </div>
                     <div className="nav__links">
                         <ul className="flex">
-                            <li>Home</li>
-                            <li>Visit</li>
-                            <li>Calendar</li>
-                            <li>Adopt</li>
-                            <li>About Us</li>
-                            <li>Pet Care</li>
-                            <li>Policies</li>
-                            <li>Volonteers</li>
-                            <li>Donate</li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/visit">Visit</Link></li>
+                            <li><Link to="/calendar">Calendar</Link></li>
+                            <li><Link to="/adopt">Adopt</Link></li>
+                            <li><Link to="/about-us">About us</Link></li>
+                            <li><Link to="/petcare">Pet care</Link></li>
+                            <li><Link to="/policies">Policies</Link></li>
+                            <li><Link to="/volunteer">Volunteer</Link></li>
+                            <li><Link to="/donate">Donate</Link></li>
                         </ul>
                     </div>
                     <div className="nav__collapse">
                         <ul>
-                            <li>Home</li>
-                            <li>Visit</li>
-                            <li>Calendar</li>
-                            <li>Adopt</li>
-                            <li>About Us</li>
-                            <li>Pet Care</li>
-                            <li>Policies</li>
-                            <li>Volunteers</li>
-                            <li>Donate</li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/visit">Visit</Link></li>
+                            <li><Link to="/calendar">Calendar</Link></li>
+                            <li><Link to="/adopt">Adopt</Link></li>
+                            <li><Link to="/about-us">About us</Link></li>
+                            <li><Link to="/petcare">Pet care</Link></li>
+                            <li><Link to="/policies">Policies</Link></li>
+                            <li><Link to="/volunteer">Volunteer</Link></li>
+                            <li><Link to="/donate">Donate</Link></li>
                         </ul>
                     </div>
                 </div>

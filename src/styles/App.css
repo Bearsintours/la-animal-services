@@ -132,6 +132,10 @@
   justify-content: space-around;
 }
 
+.component {
+  margin-top: 510px;
+}
+
 .item {
   margin: 0 30px;
 }

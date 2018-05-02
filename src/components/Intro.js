@@ -8,7 +8,7 @@ class Intro extends Component {
                 <div className="intro__text">
                     <h1>Find an adorable pet today!</h1>
                     <h3>Hundreds of pets are looking for a home</h3>
-                    <button class="intro__btn">Adopt today</button>
+                    <button className="intro__btn">Adopt today</button>
                 </div>
             </div>
         );
