@@ -19,7 +19,7 @@ const AppRouter = () => (
             <Nav />
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/visit" component={Visit} />
+                <Route path="/visit" component={Visit} />
                 <Route exact path="/calendar" component={Calendar} />
                 <Route exact path="/adopt" component={Adopt} />
                 <Route exact path="/about-us" component={AboutUs} />

@@ -1,0 +1,27 @@
+.visit {
+    margin: auto;
+    padding: 100px;
+}
+
+.visit h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.visit__shelters {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+li {
+    border-bottom: 3px solid #0f2940;
+    cursor: pointer;
+    display: inline;
+    padding: 5px;
+}
+
+p {
+    margin-top: 20px;
+}
