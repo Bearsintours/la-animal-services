@@ -133,7 +133,9 @@
 }
 
 .component {
-  margin-top: 100px;
+  color: #3c3e47;
+  margin: 150px auto 0;
+  width: 80%;
 }
 
 .item {
@@ -146,7 +148,7 @@
 }
 
 .adopt__pets h2 {
-  margin: 50px 0 20px 0;
+  margin: 50px 0 50px 0;
 }
 
 .adopt__pets__img {
@@ -243,6 +245,10 @@
   width: 180px;
 }
 
+.footer {
+  margin-top: 50px;
+}
+
 .footer__top {
   background: #5a9dd8;
   color: #fff;
@@ -305,6 +311,9 @@
   .nav__collapse {
     display: block;
   }
+  .component {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 842px) {
@@ -322,5 +331,8 @@
 @media only screen and (max-width: 509px) {
   .more-info__btn {
     margin-bottom: 60px;
+  }
+  .component {
+    width: 100%;
   }
 }

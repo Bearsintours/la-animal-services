@@ -26,7 +26,6 @@ class Nav extends Component {
                         <ul className="flex">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/visit">Visit</Link></li>
-                            <li><Link to="/calendar">Calendar</Link></li>
                             <li><Link to="/adopt">Adopt</Link></li>
                             <li><Link to="/about-us">About us</Link></li>
                             <li><Link to="/petcare">Pet care</Link></li>
@@ -39,7 +38,6 @@ class Nav extends Component {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/visit">Visit</Link></li>
-                            <li><Link to="/calendar">Calendar</Link></li>
                             <li><Link to="/adopt">Adopt</Link></li>
                             <li><Link to="/about-us">About us</Link></li>
                             <li><Link to="/petcare">Pet care</Link></li>

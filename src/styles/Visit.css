@@ -1,11 +1,11 @@
 .visit {
+    color: #3c3e47;
     margin: auto;
-    padding: 100px;
+    padding: 0 100px 100px 100px;
 }
 
 .visit h1 {
     margin-bottom: 50px;
-    text-align: center;
 }
 
 .visit__shelters {
@@ -15,7 +15,7 @@
     margin-bottom: 50px;
 }
 
-li {
+.visit__shelters__links {
     border-bottom: 3px solid #0f2940;
     cursor: pointer;
     display: inline;

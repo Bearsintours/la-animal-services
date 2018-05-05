@@ -4,7 +4,6 @@ import Nav from '../components/Nav';
 import Home from '../components/Home';
 import Footer from '../components/Footer';
 import Visit from '../components/Visit';
-import Calendar from '../components/Calendar';
 import Adopt from '../components/Adopt';
 import AboutUs from '../components/AboutUs';
 import PetCare from '../components/PetCare';
@@ -20,7 +19,6 @@ const AppRouter = () => (
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/visit" component={Visit} />
-                <Route exact path="/calendar" component={Calendar} />
                 <Route exact path="/adopt" component={Adopt} />
                 <Route exact path="/about-us" component={AboutUs} />
                 <Route exact path="/petcare" component={PetCare} />

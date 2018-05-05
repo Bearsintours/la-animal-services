@@ -70,42 +70,43 @@ const shelterInfo = (shelterId) => {
             <p>{shelter[0].adddress}</p>
             <p>{shelter[0].phone}</p>
             <p>{shelter[0].area}</p>
-            <p>{shelter[0].hours}</p>         
+            <p>Shelter Hours: {shelter[0].hours}</p>         
         </div>
     )  
 }
 
 const Visit = ({ match }) => (
     <Router>
-        <div className="component">
-            <div className="visit">
-            <h1>Visit our shelters</h1>
-            <ul className="visit__shelters">
-                <li className="visit__shelters__links">
-                    <Link to={`${match.url}/east-valley`}>East Valley</Link>
-                </li>
-                <li>
-                    <Link to={`${match.url}/harbor`}>Harbor</Link>
-                </li>
-                <li>
-                    <Link to={`${match.url}/north-central`}>North Central</Link>
-                </li>
-                <li>
-                    <Link to={`${match.url}/south-la`}>South LA</Link>
-                </li>
-                <li>
-                    <Link to={`${match.url}/west-la`}>West LA</Link>
-                </li>
-                <li>
-                    <Link to={`${match.url}/west-valley`}>West Valley</Link>
-                </li>
-                <li>Shelter Lookup</li>  
-            </ul>
-            <Route path={`${match.url}/:shelterId`} component={Shelter} />
-            <Route 
-                exact path={match.url}
-                render={() => <h3>Please select a shelter.</h3>}
-            />
+        <div>
+            <div className="component">
+                <div className="visit">
+                    <h1>Visit our shelters</h1>
+                    <ul className="visit__shelters">
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/east-valley`}>East Valley</Link>
+                        </li>
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/harbor`}>Harbor</Link>
+                        </li>
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/north-central`}>North Central</Link>
+                        </li>
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/south-la`}>South LA</Link>
+                        </li>
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/west-la`}>West LA</Link>
+                        </li>
+                        <li className="visit__shelters__links">
+                            <Link to={`${match.url}/west-valley`}>West Valley</Link>
+                        </li> 
+                    </ul>
+                    <Route path={`${match.url}/:shelterId`} component={Shelter} />
+                    <Route 
+                        exact path={match.url}
+                        render={() => <h3>Please select a shelter.</h3>}
+                    />
+                </div>
             </div>
             <Footer />
         </div>
