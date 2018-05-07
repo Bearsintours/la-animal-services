@@ -130,12 +130,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  line-height: 150%;
 }
 
 .component {
   color: #3c3e47;
-  margin: 150px auto 0;
-  width: 80%;
+  margin: 190px auto 100px;
+  width: 68%;
 }
 
 .item {
@@ -312,7 +313,7 @@
     display: block;
   }
   .component {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -333,6 +334,6 @@
     margin-bottom: 60px;
   }
   .component {
-    width: 100%;
+    width: 90%;
   }
 }

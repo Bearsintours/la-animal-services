@@ -2,17 +2,25 @@
     color: #3c3e47;
 }
 
-.adopt__info {
-    padding: 0 100px;
-}
-
 .adopt__info h1 {
-    text-align: center;
     margin-bottom: 50px;
 }
 
 .adopt__info h3 {
     margin: 50px;
+}
+
+.adopt__info h4 {
+    margin: 30px 0;
+}
+
+.adopt__info__list {
+    line-height: 200%;
+}
+
+.adopt__info__list li {
+    list-style-type: circle;
+    margin-left: 30px;
 }
 
 .adopt-pdf-link {
@@ -22,4 +30,21 @@
 
 .animals {
     margin-bottom: 100px;
+}
+
+.adopt__seniors {
+    margin: 100px 0;
+}
+
+.adopt__seniors h1 {
+    margin: 30px 0;
+}
+
+.adopt__seniors h3 {
+    margin: 30px;
+}
+
+.adopt__seniors h4 {
+    color: #5a9dd8;
+    margin-top: 30px;
 }
