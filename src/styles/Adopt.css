@@ -2,16 +2,25 @@
     color: #3c3e47;
 }
 
-.adopt__info h1 {
-    margin-bottom: 50px;
+h1 {
+    margin: 100px 0 50px 0;
 }
 
-.adopt__info h3 {
-    margin: 50px;
+h3 {
+    margin: 50px ;
 }
 
-.adopt__info h4 {
+h4 {
     margin: 30px 0;
+}
+
+a h4 {
+    color: #5a9dd8;
+    cursor: pointer;
+}
+
+.adopt h1 {
+    margin: 100px 0 50px 0;
 }
 
 .adopt__info__list {
@@ -28,8 +37,16 @@
     font-weight: bold;
 }
 
-.animals {
-    margin-bottom: 100px;
+.item {
+    margin-left: 0;
+}
+
+.item h2 {
+    text-align: center;
+}
+
+.adopt__info__fees {
+    margin-bottom: 50px;
 }
 
 .adopt__seniors {
@@ -40,11 +57,7 @@
     margin: 30px 0;
 }
 
-.adopt__seniors h3 {
-    margin: 30px;
-}
-
-.adopt__seniors h4 {
+.adopt__seniors a {
     color: #5a9dd8;
     margin-top: 30px;
 }
