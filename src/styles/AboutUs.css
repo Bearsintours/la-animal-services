@@ -1,0 +1,10 @@
+.about-us__values li,
+.careers li {
+    list-style: circle;
+    margin: 30px;
+}
+
+/* .careers li {
+    list-style-type: circle;
+    margin-left: 30px;
+} */

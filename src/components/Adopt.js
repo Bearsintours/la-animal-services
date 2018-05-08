@@ -13,7 +13,10 @@ class Adopt extends Component {
                         <h1>I want a pet </h1>
 <p>The Los Angeles Department of Animal Services offers a wide range of services that fulfill its mission to <b>“Promote and Protect the Health, Safety and Welfare of Animals and People in the City of Los Angeles.”</b></p>
 <p>As the needs of the community grow, so do our services. Please check back often to see what new services and information that the Department is offering!</p>
+                    <a href="http://www.laanimalservices.com/adopt/animal-id-search/"><h4> Search By animal ID</h4></a>
+                    <a href="http://www.laanimalservices.com/shelter-search/"><h4> Search By shelter</h4></a>
                     </div>
+
                     <div className="adopt__pets container">
                         <div className="item">
                             <h2>Dogs</h2>
