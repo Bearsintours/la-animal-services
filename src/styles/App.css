@@ -153,6 +153,15 @@
   margin: 30px 0;
 }
 
+.component li {
+  list-style: circle;
+  margin: 30px;
+}
+
+.component a {
+  color: #5a9dd8;
+}
+
 .item {
   margin: 0 30px 30px 30px;
 }
